@@ -15,7 +15,10 @@
  */
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
+//homepage and navbar styles
 .navbar, .home-callout {
   /*gradient provided by @_ighosh at uigradients.com*/
   background: #7474BF; /* fallback for old browsers */
@@ -43,7 +46,7 @@
   }
 }
 
-
+//typography
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
 }
