@@ -38,8 +38,8 @@
 }
 
 .navbar-brand{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 .navbar-default .navbar-brand,
@@ -54,4 +54,14 @@
 //typography
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border: none;
+  &:hover, &:focus {
+    background-color: #00c6ff;
+  }
 }
